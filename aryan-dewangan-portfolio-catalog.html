@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aryan Dewangan — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">AD<span class="dot">.</span>DEV</div>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="#catalog">Projects</a>
+        <a href="#history">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="cart-badge">03 PROJECTS</div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="box-stage" id="boxStage">
+      <div class="box box-back"></div>
+      <div class="box box-mid"></div>
+      <div class="box box-front">
+        <div class="box-sku">SKU: AD-2025-ENG</div>
+        <div class="box-initial">AD</div>
+        <div class="barcode" id="barcode"></div>
+        <div class="box-cap">HANDLE WITH CARE — SHIPS ANYWHERE</div>
+      </div>
+      <div class="stamp" id="stamp"><span>Available for hire</span></div>
+    </div>
+
+    <div>
+      <div class="eyebrow">Item No. 001 — Raipur, Chhattisgarh</div>
+      <h1 class="display" id="heroTitle">Aryan Dewangan Software engineer, packaged for real‑time apps and the ML behind them.</h1>
+      <p class="pitch">I build across the stack — React and Node on the frontend and backend, XGBoost and Pandas when the problem calls for a model instead of a UI.</p>
+
+      <div class="spec-table">
+        <div class="spec-row"><div class="k">ROLE</div><div>Full-stack Developer &amp; ML Engineer</div></div>
+        <div class="spec-row"><div class="k">STACK</div><div>React · Node.js · Python · MongoDB</div></div>
+        <div class="spec-row"><div class="k">EDUCATION</div><div>MCA in progress, BCA completed</div></div>
+        <div class="spec-row"><div class="k">STATUS</div><div class="status-pill">In stock — open to opportunities</div></div>
+      </div>
+
+      <div class="hero-ctas">
+        <a class="btn btn-solid" href="mailto:adewangandev@gmail.com">Email me</a>
+        <a class="btn btn-outline" href="tel:6260596594">Call</a>
+        <a class="btn btn-outline" href="https://github.com/aaryandevwork" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-outline" href="https://www.linkedin.com/in/aaryan-dewangan-98a84638b/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="catalog">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="display">Catalog</h2>
+      <div class="count mono">03 items · in this release</div>
+    </div>
+
+    <div class="item">
+      <div class="perf item-perf"></div>
+      <div class="item-head">
+        <div>
+          <div class="item-no mono">ITEM 01</div>
+          <h3>Fake Social Media Account Detection</h3>
+        </div>
+        <div class="item-tag">ML Model</div>
+      </div>
+      <div class="item-body">
+        <div>
+          <ul>
+            <li>AI web app that flags fake Instagram profiles from public profile metadata.</li>
+            <li>XGBoost classifier trained on engineered features: follower‑following ratio, media activity, username characteristics, bio length, privacy and verification status.</li>
+            <li>End‑to‑end pipeline covering preprocessing, feature engineering and log transforms for real‑time prediction.</li>
+            <li>Streamlit dashboard with JSON upload or manual input, showing fake probability, confidence and profile visualizations.</li>
+          </ul>
+          <a class="item-link" href="https://github.com/aaryandevwork/Fake-Social-Media-Account-Detection" target="_blank" rel="noopener">View project ↗</a>
+        </div>
+        <div class="mini-spec">
+          <div class="mini-row"><div class="k">STACK</div><div>Python, XGBoost</div></div>
+          <div class="mini-row"><div class="k">TOOLS</div><div>Pandas, NumPy</div></div>
+          <div class="mini-row"><div class="k">OUTPUT</div><div>Matplotlib, Streamlit</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="perf item-perf"></div>
+      <div class="item-head">
+        <div>
+          <div class="item-no mono">ITEM 02</div>
+          <h3>Gupshap — Real-time Chat App</h3>
+        </div>
+        <div class="item-tag">Web App</div>
+      </div>
+      <div class="item-body">
+        <div>
+          <ul>
+            <li>One‑to‑one chat app, WhatsApp‑style, for instant messaging over the web.</li>
+            <li>Express and Node backend handling API routes, message storage and server communication.</li>
+            <li>Socket.IO and WebSockets for instant delivery, no page refresh required.</li>
+            <li>MongoDB schema for accounts, messages and conversation history; auth‑gated private conversations.</li>
+          </ul>
+        </div>
+        <div class="mini-spec">
+          <div class="mini-row"><div class="k">STACK</div><div>Node.js, Express</div></div>
+          <div class="mini-row"><div class="k">FRONTEND</div><div>React</div></div>
+          <div class="mini-row"><div class="k">REALTIME</div><div>Socket.IO, MongoDB</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="perf item-perf"></div>
+      <div class="item-head">
+        <div>
+          <div class="item-no mono">ITEM 03</div>
+          <h3>SkyMart — E‑commerce App</h3>
+        </div>
+        <div class="item-tag">Web App</div>
+      </div>
+      <div class="item-body">
+        <div>
+          <ul>
+            <li>Responsive storefront with search, category filtering, sorting and related products.</li>
+            <li>Redux Toolkit for global cart and auth state — quantity updates, totals, persistent localStorage.</li>
+            <li>Protected and public routes with URL‑based category filtering and reusable filtering hooks.</li>
+            <li>Tailwind UI with toast notifications and an interactive cart sidebar.</li>
+          </ul>
+          <a class="item-link" href="https://sky-mart-hazel-beta.vercel.app/" target="_blank" rel="noopener">View project ↗</a>
+        </div>
+        <div class="mini-spec">
+          <div class="mini-row"><div class="k">STACK</div><div>React, Redux Toolkit</div></div>
+          <div class="mini-row"><div class="k">ROUTING</div><div>React Router</div></div>
+          <div class="mini-row"><div class="k">STYLE</div><div>Tailwind CSS</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="history">
+  <div class="wrap">
+    <div class="sec-head"><h2 class="display">Education</h2><div class="count mono">order history</div></div>
+    <div class="order">
+      <div class="when">AUG 2025 — PRESENT</div>
+      <div><h3>Master of Computer Applications</h3><p>Shri Shankaracharya Technical Campus, Junwani, Bhilai</p></div>
+    </div>
+    <div class="order">
+      <div class="when">JUN 2022 — JUN 2025</div>
+      <div><h3>Bachelor of Computer Applications</h3><p>Pandit Ravishankar University, Raipur — 75%</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="wrap">
+    <div class="sec-head"><h2 class="display">Certifications</h2><div class="count mono">included in box</div></div>
+    <div class="incl-row"><span>Hackathon Participation — HackOMania 2k25</span><span class="org">SSPU Bhilai</span></div>
+    <div class="incl-row"><span>Hackathon Participation — Prayatna 3.0</span><span class="org">Acropolis Institute of Technology &amp; Research, Indore</span></div>
+    <div class="incl-row"><span>Responsive Web Development — HTML, CSS &amp; JavaScript</span><span class="org">Infosys Springboard</span></div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-eyebrow mono">Item 001 — end of listing</div>
+    <h2>Have something worth building? Let's talk.</h2>
+    <div class="contact-grid">
+      <a href="mailto:adewangandev@gmail.com">adewangandev@gmail.com</a>
+      <a href="tel:6260596594">6260596594</a>
+      <a href="https://github.com/aaryandevwork" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/aaryan-dewangan-98a84638b/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="foot-note mono">Raipur, Chhattisgarh, India</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
